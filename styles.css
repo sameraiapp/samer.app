@@ -1,0 +1,332 @@
+body   {
+    background-color: rgb(27, 27, 27);
+}
+
+.presentationBody   {
+    background: rgb(5,0,85);
+    background: linear-gradient(90deg, rgba(5,0,85,1) 0%, rgba(80,9,121,1) 51%, rgba(166,0,255,1) 100%);
+}
+
+.biographyBody  {   
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.contactBody {
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.linksBody  {
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+
+.banner {
+    background-color:rgb(22, 22, 22);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    border-radius: 15px;
+}
+
+.banner a {
+    display: inline-block;
+    padding: 10px;
+    font-size: 25px;
+    margin-left: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.face {
+    background-image: url('img/face.png');
+    width: 35.15%;
+    height: 451.5px;
+    margin-top: -150px;
+    margin-left: 1250px;
+    border: 3px solid white;
+    border-radius: 100%;
+}
+
+.presentationTextContainer  {
+
+    margin-left: 55px;
+    margin-top: -4s0px;
+}
+.presentationTextAnimated {
+    font-size: 2.5em;
+    letter-spacing: 10px;
+    font-family: monospace;
+    border-right: 5px solid;
+    width: 100%;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 2s steps(46),
+        cursor .4s step-end infinite alternate;
+}
+
+
+/* cursor blinking */
+@keyframes cursor {
+    50% { border-color: transparent }
+}
+
+/* typing effect */
+@keyframes typing   {
+    from { width: 0}
+}
+
+.presentationText {
+    color: white;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+.headerText {
+    color: white;
+    font-size: 2.5em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0px;
+    padding: 5px;
+}
+.biographyContainer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: white;
+    margin-left: 8%;
+
+
+}
+
+
+.headerTextBox  {
+    font-style: italic;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.box1   {
+
+    margin-top: 100px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    padding: 4px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+
+
+}
+
+.careerPathImage    {
+    background-image: url('img/careerpath.png');
+    background-size: cover;
+    background-position: center;
+    margin-top: 49px;
+    margin-left: 50px;
+    width: 70%;
+    height: 45%;
+}
+
+.box2   {
+
+    margin-top: 100px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    padding: 4px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.workingExperienceImage {
+
+    background-image: url('img/workingexperience.png');
+    background-size: cover;
+    background-position: center;
+    margin-top: 35px;
+    margin-left: 50px;
+    width: 80%;
+    height: 50%;
+
+
+}
+
+.box3   {
+
+    margin-top: 100px;
+    border: 2px solid white;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    padding: 4px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.achievementImage    {
+
+    background-image: url('img/achievement.png');
+    background-size: cover;
+    background-position: center;
+    margin-top: 87px;
+    margin-left: 50px;
+    width: 80%;
+    height: 50%;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+    margin-left: 170px;
+    margin-top: 100px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    color: #333;
+    width: 25%;
+    font-weight: normal;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #00B4D8; /* Cyan */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"]:hover {
+    background-color: #0096c7; /* Darker Cyan */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contactFormImage   {
+
+    background-image: url('img/contactform.png');
+    background-size: cover;
+    background-position: center;
+    margin-top: -440px;
+    margin-left: 1100px;
+    width: 29%;
+    height: 420px;
+}
+
+.headerTextMultimedia   {
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.multimediabody {
+    background-image: url('https://picsum.photos/1024/768');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: -10px;
+    
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 10px;
+}
+
+.image-gallery img {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+}
+
+.social-links {
+    display: inline-flex;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 27%;
+    margin-top: 7%;
+
+}
+
+.social-links a {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.social-links img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
